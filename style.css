@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.productcontainer{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+
+}
+.prodcrd{
+    background-color: #f3e9dc;
+    color: #5e3023;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+}
+.prodbtn{
+    background-color: #d3ba99;
+    border: none;
+    border-radius: 10px;
+    color: #5e3023;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+}
+.prodbtn:hover{
+    background-color: #c08552;
+    color: #a44200;
+}
+.countandtotal{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    background-color: #d58936;
+    color: #5e3023 ;
+    margin: 10px;
+    border-radius: 10px;
+}

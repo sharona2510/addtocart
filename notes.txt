@@ -1,0 +1,19 @@
+we can manipulate a html file using js(i.e. the backend)
+this comes in the dom (document object model) 
+using dom, you can create a class in html and
+manipulate and loop the rest in js
+
+why this is used?
+because when there are a large amount of data,
+it becomes difficult to create base for each and ever data
+and it takes much space and slowdown the execution of the base html file
+to make the code fast and efficient, js is used 
+
+to manipulate this data 3 functions are used
+the function flow is as follows:
+       -document.getElementById('container name')
+       -containername.forEach(()=>{here the loop codes are initiated})
+       -document.createElement('tag(div,p,h1,etc..)')
+       -containername.classList.add('classname')
+       -variable name.appendChild(classname)
+
